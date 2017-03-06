@@ -1,0 +1,36 @@
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+c:\users\ск\documents\visual studio 2015\Projects\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-Puzzle-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+C:\Users\СК\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+C:\Users\student\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+C:\Users\student\Desktop\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe.config
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.exe
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.pdb
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.exe
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\bin\Debug\15-puzzle.pdb
+C:\Users\СК\Desktop\15-Puzzle-2-3-master\15-Puzzle-2-3-master\15-puzzle\15-puzzle\obj\Debug\15-puzzle.csprojResolveAssemblyReference.cache
