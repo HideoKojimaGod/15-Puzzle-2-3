@@ -42,7 +42,7 @@ namespace _15_puzzle
         {
             for (int i = 0; i < amountOfSteps; i++)
             {
-                if (currentStep != 0)
+                if (currentStep > 0)
                 {
                     base.Shift(history[currentStep - 1].Value);
                     currentStep--;
@@ -50,22 +50,20 @@ namespace _15_puzzle
                 else throw new ArgumentOutOfRangeException("Невозможно вернуться назад");
             }
         }
-        public void GetAllHistory()
+        public List<string> GetAllHistory()
         {
-            for (int i = 0; i < history.Count; i++)
+            List<string> steps = new List<string>();
+            for (int i = 0; i < currentStep; i++)
             {
-                History step = history[i];
-                Console.WriteLine("{0} with ({1};{2}) replaced to ({3};{4})",
-                step.Value, step.ShiftFrom.X, step.ShiftFrom.Y, step.ShiftTo.X, step.ShiftTo.Y);
+                steps.Add(history[i].ToString());
             }
+            return steps;
         }
         public string GetStep(int value)
         {
             if (value <= currentStep)
             {
-                History step = history[value - 1];
-                return string.Format("{0} with ({1};{2}) replaced to ({3};{4})",
-                    step.Value, step.ShiftFrom.X, step.ShiftFrom.Y, step.ShiftTo.X, step.ShiftTo.Y);
+                return history[value - 1].ToString();
             }
             else return "Не существует шага";
         }

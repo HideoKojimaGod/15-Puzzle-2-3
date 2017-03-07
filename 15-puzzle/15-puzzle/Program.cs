@@ -44,19 +44,25 @@ namespace _15_puzzle
                 Console.WriteLine(e.Message);
             }
 
-            var ih = new Puzzle2(numberedSquare);
-            Console.WriteLine(ih);
-            ih.Randomize();
-            Console.WriteLine(ih.Win);
-            Console.WriteLine(ih);
-            var iha = new Puzzle3(numberedSquare);
-            iha.Shift(15);
-            iha.Shift(14);
-            iha.Shift(13);
-            iha.Undo(2);
+            //var ih = new Puzzle2(numberedSquare);
+            //Console.WriteLine(ih);
+            //ih.Randomize();
+            //Console.WriteLine(ih.Win);
+            //Console.WriteLine(ih);
+            //var iha = new Puzzle3(numberedSquare);
+            //iha.Shift(15);
+            //iha.Shift(14);
+            //iha.Shift(13);
+            //iha.Undo(3);
             //iha.Redo(1);
-            iha.Shift(14);
-            iha.GetAllHistory();
+            ////iha.Redo(1);
+            ////iha.Shift(14);
+            //for (int i = 0; i < iha.GetAllHistory().Count; i++)
+            //{
+            //    Console.WriteLine(iha.GetAllHistory()[i]);
+            //}
+                //iha.GetAllHistory();
+           
             //iha.Randomize();
             //Console.WriteLine(iha.GetStep(1));
 

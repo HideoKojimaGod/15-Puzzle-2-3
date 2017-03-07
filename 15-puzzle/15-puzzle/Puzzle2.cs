@@ -33,9 +33,9 @@ namespace _15_puzzle
             int[] numberedSquare = new int[sizeOfFrame * sizeOfFrame];
             for (int i = 0; i < sizeOfFrame * sizeOfFrame; i++)
                 numberedSquare[i] = i;
-            var rPuzzle = new Puzzle2(numberedSquare);
-            rPuzzle.Randomize();
-            return rPuzzle;
+            var randomPuzzle = new Puzzle2(numberedSquare);
+            randomPuzzle.Randomize();
+            return randomPuzzle;
         }
         public bool Win
         {

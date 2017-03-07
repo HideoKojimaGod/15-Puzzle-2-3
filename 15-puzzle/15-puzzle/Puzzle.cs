@@ -21,7 +21,7 @@ namespace _15_puzzle
             {
                 for (int j = 0; j < SizeOfFrame; j++)
                 {
-                    int value = Convert.ToInt32(numberedSquare[i * SizeOfFrame + j]);
+                    int value = numberedSquare[i * SizeOfFrame + j];
                     frame[i,j] = value;
                     positions.Add(value, new Position(i, j));
                 }
@@ -33,7 +33,7 @@ namespace _15_puzzle
             {
                 return frame[x,y];
             }
-            set
+            protected set
             {
                 frame[x,y] = value;
             }

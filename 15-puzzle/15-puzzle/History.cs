@@ -17,5 +17,11 @@ namespace _15_puzzle
             ShiftFrom = pos1;
             ShiftTo = pos2;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0} with ({1};{2}) replaced to ({3};{4})",
+                    this.Value, this.ShiftFrom.X, this.ShiftFrom.Y, this.ShiftTo.X, this.ShiftTo.Y);
+        }
     }
 }
