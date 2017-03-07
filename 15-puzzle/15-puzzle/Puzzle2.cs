@@ -11,21 +11,30 @@ namespace _15_puzzle
         public Puzzle2(params int[] numberedSquare) : base(numberedSquare)
         {  
         }
-        private void IllegalShift(int value1, int value2)
+        protected List<int> CheckVarinatsOfReplace()
         {
-            Position position1 = positions[value1];
-            this[positions[value1].X, positions[value1].Y] = value2;
-            this[positions[value2].X, positions[value2].Y] = value1;
-            positions[value1] = positions[value2];
-            positions[value2] = position1;
+            var variants = new List<int>();
+            if (GetLocation(0).X != SizeOfFrame - 1)
+                variants.Add(this[GetLocation(0).X + 1, GetLocation(0).Y]);
+            if (GetLocation(0).X != 0)
+                variants.Add(this[GetLocation(0).X - 1, GetLocation(0).Y]);
+            if (GetLocation(0).Y != SizeOfFrame - 1)
+                variants.Add(this[GetLocation(0).X, GetLocation(0).Y + 1]);
+            if (GetLocation(0).Y != 0)
+                variants.Add(this[GetLocation(0).X, GetLocation(0).Y - 1]);
+            return variants;
         }
+
         public virtual void Randomize()
         {
-            var n = new Random().Next(SizeOfFrame * SizeOfFrame);
-            var val = new Random();
+            var n = SizeOfFrame * SizeOfFrame;
+            var rand = new Random();
             for (int i = 0; i < n; i++)
-                IllegalShift(val.Next(SizeOfFrame * SizeOfFrame - 1),
-                             val.Next(SizeOfFrame * SizeOfFrame - 1));
+            {
+                var variants = CheckVarinatsOfReplace();
+                Shift(variants[rand.Next(variants.Count - 1)]);
+            }
+               
         }
 
         public static Puzzle2 CreateRandom(int sizeOfFrame)

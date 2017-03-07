@@ -26,7 +26,7 @@ namespace _15_puzzle
             history.Add(new History(value, GetLocation(0), GetLocation(value)));
             currentStep++;
         }
-        public void Redo(int amountOfSteps)
+        public void Redo(int amountOfSteps = 1)
         {
             for (int i = 0; i < amountOfSteps; i++)
             {
@@ -38,7 +38,7 @@ namespace _15_puzzle
                 else throw new ArgumentOutOfRangeException("Невозможно вернуться вперед");
             }
         }
-        public void Undo(int amountOfSteps)
+        public void Undo(int amountOfSteps = 1)
         {
             for (int i = 0; i < amountOfSteps; i++)
             {
@@ -68,12 +68,12 @@ namespace _15_puzzle
             else return "Не существует шага";
         }
 
-        public override void Randomize()
-        {
-            base.Randomize();
-            currentStep = 0;
-            history.Clear();
-        }
-        //откаты изменения
+        //public override void Randomize()
+        //{
+        //    base.Randomize();
+        //    currentStep = 0;
+        //    history.Clear();
+        //}
+        //если рандом не сохранять в истории
     }
 }
